@@ -8,8 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.18",
     "next": "10.0.7",
+    "node-sass": "^5.0.0",
     "react": "17.0.1",
+    "react-big-calendar": "^0.32.0",
+    "react-bootstrap": "^1.5.0",
+    "react-datepicker": "^3.6.0",
     "react-dom": "17.0.1"
   },
   "description": "愛徳 公式ホームページ",
