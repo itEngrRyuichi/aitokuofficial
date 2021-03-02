@@ -18,7 +18,8 @@
     "react-big-calendar": "^0.32.0",
     "react-bootstrap": "^1.5.0",
     "react-datepicker": "^3.6.0",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "scrollreveal": "^4.0.7"
   },
   "description": "愛徳 公式ホームページ",
   "main": "index.js",
