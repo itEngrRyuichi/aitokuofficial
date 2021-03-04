@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.main{
+    background-image: url(../public/images/background.jpg);
+    background-repeat: repeat-y;
+    min-height: 150vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+
+    .main-title{
+        font-size: 33px;
+        font-family: 'Hachi Maru Pop', cursive;
+    }
+    .main-script{
+        font-size: 30px;
+        font-family: 'Hachi Maru Pop', cursive;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+        span.orange{
+            color: #ff9f20;
+            font-weight: bold;
+            font-size: 33px;
+        }
+        span.brawn{
+            color: #bf360c;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    }
+    .top-wrapper{
+        padding-right: 10vw;
+        padding-left: 10vw;
+
+        .mainPic{
+            opacity: 0.7;
+            width: 100%;
+            height: auto;
+        }
+        
+        .blur, .blur > img {
+            margin: 0; padding: 0;
+            border: 0;
+        }
+        
+        .blur {
+            position: relative;
+            display: inline-block;
+            font-size: 0;
+            line-height: 0;
+        }
+        
+        .blur:after {
+            position: absolute;
+            left: 0; top: 0; right: 0; bottom: 0;
+            -moz-box-shadow: inset 0px 0px 15px 15px #f9f6ee;
+            -webkit-box-shadow: inset 0px 0px 15px 15px #f9f6ee;
+            box-shadow: inset 0px 0px 15px 15px #f9f6ee;
+            content: " ";
+        }
+    }
+    .about-wrapper{
+        .main-title{
+            margin-top: 25vh;
+            margin-bottom: 10vh;
+        }
+        .sub-script{
+            font-size: 25px;
+            font-family: 'Hachi Maru Pop', cursive;
+            span.big{
+                font-weight: bold;
+                font-size: 32px;
+            }
+            span.brawn{
+                color: #bf360c;
+                font-weight: bold;
+                font-size: 28px;
+            }
+            span.sky{
+                color: #03a9f4;
+                font-weight: bold;
+                font-size: 28px;
+            }
+            span.green{
+                color: #009688;
+                font-weight: bold;
+                font-size: 28px;
+            }
+            span.orange{
+                color: #ff9f20;
+                font-weight: bold;
+                font-size: 28px;
+            }
+            span.bold{
+                font-weight: bold;
+                font-size: 28px;
+            }
+        }
+    }
+}
+

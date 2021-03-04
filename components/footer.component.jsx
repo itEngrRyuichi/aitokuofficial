@@ -15,7 +15,7 @@ export default class Footer extends Component {
         return (
             <Fragment>
                 {/* Desktop Tablet */}
-                <div className="footer py-3 d-none d-sm-block">
+                <div className="footer py-3 d-none d-sm-block" id="contact">
                     <img src="/images/brand.png" alt="BradImage" className="rounded mx-auto mt-3 mb-2 d-block" ref="BradImage" />
                     <div className="contact py-3">
                         <p className="text-center title pb-3" ref="contact1">Contact</p>
