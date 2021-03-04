@@ -22,7 +22,7 @@
     "scrollreveal": "^4.0.7"
   },
   "description": "愛徳 公式ホームページ",
-  "main": "index.js",
+  "main": "index.jsx",
   "repository": "https://github.com/itEngrRyuichi/aitokuofficial.git",
   "author": "Ryuichi Paul E. Egoshi <it.engr.ryuichi@gmail.com>",
   "license": "MIT"
