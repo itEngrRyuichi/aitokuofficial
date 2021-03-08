@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import ClientNavigation from '../components/clientNavigation.component';
 import Footer from '../components/footer.component';
+import Head from 'next/head';
 
 export default class Activity extends Component {
     constructor(props) {
