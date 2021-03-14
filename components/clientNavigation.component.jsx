@@ -1,14 +1,30 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import Reservation from './clientReservation.component';
 
 export default class ClientNavigation extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
+            isReserveModalOpen: false
         }
+        this.showReservation = this.showReservation.bind(this);
+        this.closeReservation = this.closeReservation.bind(this);
     }
     componentDidMount() {
+    }
+
+    showReservation() {
+        this.setState({
+            isReserveModalOpen: true
+        });
+    }
+
+    closeReservation() {
+        this.setState({
+            isReserveModalOpen: false
+        });
     }
 
     render() {
@@ -31,12 +47,13 @@ export default class ClientNavigation extends Component {
                                 <Nav.Link href="#contact" className={`px-4 topic-item ${this.props.page==='contact' ? 'selected' : ''}`}  ref="navItem4">お問い合わせ</Nav.Link>
                             </Nav>
                             <Nav className="mr-auto ml-auto">
-                                <Nav.Link className="px-4 reserve-item" ref="navItem5">宿泊予約</Nav.Link>
+                                <Nav.Link onClick={ this.showReservation } className="px-4 reserve-item" ref="navItem5">宿泊予約</Nav.Link>
                                 <Nav.Link href="/" className="px-4 translate" ref="navItem6">EN <i className="fas fa-arrows-alt-h"></i> JP</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </div>
                 </Navbar>
+                { this.state.isReserveModalOpen ? <Reservation closeReservation = { this.closeReservation } /> : '' }
             </>
         );
     }
