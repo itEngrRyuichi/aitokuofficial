@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Head from 'next/head';
 import ClientNavigation from '../components/clientNavigation.component';
 import Footer from '../components/footer.component';
 
@@ -15,6 +16,10 @@ export default class Home extends Component {
   render() {
       return (
           <Fragment>
+            <Head>
+              <title>ゲストハウス愛徳 | 公式ホームページ</title>
+              <meta name="title" content="ゲストハウス愛徳 | 公式ホームページ" />
+            </Head>
             <div className="main">
               <ClientNavigation />
               <div className="row py-4 mx-0 top-wrapper">

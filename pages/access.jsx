@@ -14,6 +14,10 @@ export default class Access extends Component {
     render() {
         return (
             <Fragment>
+                <Head>
+                    <title>ゲストハウス愛徳 | アクセス</title>
+                    <meta name="title" content="ゲストハウス愛徳 | アクセス" />
+                </Head>
                 <div className="main">
                     <ClientNavigation
                         animated={false}

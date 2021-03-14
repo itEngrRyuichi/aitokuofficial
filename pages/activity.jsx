@@ -14,6 +14,10 @@ export default class Activity extends Component {
     render() {
         return (
             <Fragment>
+                <Head>
+                    <title>ゲストハウス愛徳 | 周辺案内</title>
+                    <meta name="title" content="ゲストハウス愛徳 | 周辺案内" />
+                </Head>
                 <div className="main">
                     <ClientNavigation
                         animated={false}
