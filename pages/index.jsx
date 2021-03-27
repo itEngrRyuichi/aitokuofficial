@@ -59,24 +59,15 @@ export default class Home extends Component {
                       <span className="orange">身も心もあたためてね...</span>
                   </p>
               </div>
-              <div className="row py-0 mx-0 picLink-wrapper">
-                <div className="col-4 p-0">
-                  <div className="img-wrapper">
-                    <h1 className="link-title">お部屋を見る</h1>
-                    <img src="/images/main/washitsu1.jpg" alt="roomLink"/>
-                  </div>
-                </div>
-                <div className="col-4 p-0">
+              <div className="py-0 mx-0 picLink-wrapper">
                 <div className="img-wrapper">
-                  <h1 className="link-title">周辺の情報</h1>
-                  <img src="/images/main/washitsu1.jpg" alt="roomLink"/>
+                  <img src="/images/main/facility.jpg" alt="roomLink"/>
                 </div>
-                </div>
-                <div className="col-4 p-0">
                 <div className="img-wrapper">
-                  <h1 className="link-title">アクセス</h1>
-                  <img src="/images/main/washitsu1.jpg" alt="roomLink"/>
+                  <img src="/images/main/activity.jpg" alt="roomLink"/>
                 </div>
+                <div className="img-wrapper">
+                  <img src="/images/main/access.jpg" alt="roomLink"/>
                 </div>
               </div>
             </div>

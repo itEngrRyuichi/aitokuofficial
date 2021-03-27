@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import Reservation from './clientReservation.component';
+/* import { withTranslation } from 'react-i18next'; */
 
 export default class ClientNavigation extends Component {
     constructor(props) {
@@ -48,7 +49,7 @@ export default class ClientNavigation extends Component {
                             </Nav>
                             <Nav className="mr-auto ml-auto">
                                 <Nav.Link onClick={ this.showReservation } className="px-4 reserve-item" ref="navItem5">宿泊予約</Nav.Link>
-                                <Nav.Link href="/" className="px-4 translate" ref="navItem6">EN <i className="fas fa-arrows-alt-h"></i> JP</Nav.Link>
+                                <Nav.Link /* onClick={ i18n.changeLanguage('en-US') } */ className="px-4 translate" ref="navItem6">EN <i className="fas fa-arrows-alt-h"></i> JP</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </div>

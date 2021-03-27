@@ -10,6 +10,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "bootstrap": "^4.6.0",
+    "i18next": "^19.9.2",
     "moment": "^2.29.1",
     "mongoose": "^5.11.18",
     "next": "10.0.7",
