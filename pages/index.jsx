@@ -59,15 +59,30 @@ export default class Home extends Component {
                       <span className="orange">身も心もあたためてね...</span>
                   </p>
               </div>
-              <div className="py-0 mx-0 picLink-wrapper">
-                <div className="img-wrapper">
-                  <img src="/images/main/facility.jpg" alt="roomLink"/>
+              <div className="mx-0 picLink-wrapper">
+                <div className="px-0 py-3 mx-0 row justify-content-center">
+                  <div className="px-0 mx-0 col-3 img-wrapper">
+                    <img src="/images/main/facility.jpg" alt="roomLink"/>
+                  </div>
+                  <div className="p-0 m-0 col-2 title-wrapper">
+                    <p className="link-title"><i class="fas fa-paw px-3"></i>お部屋を見る<i class="fas fa-paw px-2"></i></p>
+                  </div>
                 </div>
-                <div className="img-wrapper">
-                  <img src="/images/main/activity.jpg" alt="roomLink"/>
+                <div className="px-0 py-3 mx-0 row justify-content-center">
+                  <div className="px-0 mx-0 col-3 img-wrapper">
+                    <img src="/images/main/activity.jpg" alt="activityLink"/>
+                  </div>
+                  <div className="p-0 m-0 col-2 title-wrapper">
+                    <p className="link-title"><i class="fas fa-paw px-2"></i>周辺案内を見る<i class="fas fa-paw px-2"></i></p>
+                  </div>
                 </div>
-                <div className="img-wrapper">
-                  <img src="/images/main/access.jpg" alt="roomLink"/>
+                <div className="px-0 py-3 mx-0 row justify-content-center">
+                  <div className="px-0 mx-0 col-3 img-wrapper">
+                    <img src="/images/main/access.jpg" alt="accessLink"/>
+                  </div>
+                  <div className="p-0 m-0 col-2 title-wrapper">
+                    <p className="link-title"><i class="fas fa-paw px-2"></i>アクセスを見る<i class="fas fa-paw px-2"></i></p>
+                  </div>
                 </div>
               </div>
             </div>
