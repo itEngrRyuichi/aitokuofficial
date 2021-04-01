@@ -19,6 +19,7 @@ export default class Home extends Component {
             <Head>
               <title>ゲストハウス愛徳 | 公式ホームページ</title>
               <meta name="title" content="ゲストハウス愛徳 | 公式ホームページ" />
+              <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <div className="main">
               <ClientNavigation />
@@ -62,6 +63,7 @@ export default class Home extends Component {
               <div className="mx-0 picLink-wrapper">
                 <div className="px-0 py-3 mx-0 row justify-content-center">
                   <div className="p-0 m-0 col-6 row justify-content-center section-link">
+                    <a href="/facility"></a>
                     <div className="px-0 mx-0 col-6 img-wrapper">
                       <img src="/images/main/facility.jpg" alt="roomLink"/>
                     </div>
@@ -72,6 +74,7 @@ export default class Home extends Component {
                 </div>
                 <div className="px-0 py-3 mx-0 row justify-content-center">
                   <div className="p-0 m-0 col-6 row justify-content-center section-link">
+                    <a href="/activity"></a>
                     <div className="px-0 mx-0 col-6 img-wrapper">
                       <img src="/images/main/activity.jpg" alt="activityLink"/>
                     </div>
@@ -82,6 +85,7 @@ export default class Home extends Component {
                 </div>
                 <div className="px-0 py-3 mx-0 row justify-content-center">
                   <div className="p-0 m-0 col-6 row justify-content-center section-link">
+                    <a href="/access"></a>
                     <div className="px-0 mx-0 col-6 img-wrapper access-link">
                       <img src="/images/main/access.jpg" alt="accessLink"/>
                     </div>
