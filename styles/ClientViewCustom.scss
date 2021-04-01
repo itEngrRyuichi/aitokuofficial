@@ -103,7 +103,7 @@ html{
     .picLink-wrapper{
         margin-top: 20vh;
         padding-bottom: 20vh;
-        .row{
+        .section-link{
             cursor: pointer;
             .img-wrapper{
                 overflow:hidden;
@@ -143,7 +143,7 @@ html{
                 }
             }
         }
-        .row:hover{
+        .section-link:hover{
             .img-wrapper{
                 border-top: solid 8px #f3d7b1;
                 border-bottom: solid 10px #f3d7b1;

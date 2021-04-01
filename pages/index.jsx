@@ -61,27 +61,33 @@ export default class Home extends Component {
               </div>
               <div className="mx-0 picLink-wrapper">
                 <div className="px-0 py-3 mx-0 row justify-content-center">
-                  <div className="px-0 mx-0 col-3 img-wrapper">
-                    <img src="/images/main/facility.jpg" alt="roomLink"/>
-                  </div>
-                  <div className="p-0 m-0 col-2 title-wrapper">
-                    <p className="link-title"><i class="fas fa-paw px-3"></i>お部屋を見る<i class="fas fa-paw px-2"></i></p>
-                  </div>
-                </div>
-                <div className="px-0 py-3 mx-0 row justify-content-center">
-                  <div className="px-0 mx-0 col-3 img-wrapper">
-                    <img src="/images/main/activity.jpg" alt="activityLink"/>
-                  </div>
-                  <div className="p-0 m-0 col-2 title-wrapper">
-                    <p className="link-title"><i class="fas fa-paw px-2"></i>周辺案内を見る<i class="fas fa-paw px-2"></i></p>
+                  <div className="p-0 m-0 col-6 row justify-content-center section-link">
+                    <div className="px-0 mx-0 col-6 img-wrapper">
+                      <img src="/images/main/facility.jpg" alt="roomLink"/>
+                    </div>
+                    <div className="p-0 m-0 col-4 title-wrapper">
+                      <p className="link-title"><i class="fas fa-paw px-3"></i>お部屋を見る<i class="fas fa-paw px-2"></i></p>
+                    </div>
                   </div>
                 </div>
                 <div className="px-0 py-3 mx-0 row justify-content-center">
-                  <div className="px-0 mx-0 col-3 img-wrapper">
-                    <img src="/images/main/access.jpg" alt="accessLink"/>
+                  <div className="p-0 m-0 col-6 row justify-content-center section-link">
+                    <div className="px-0 mx-0 col-6 img-wrapper">
+                      <img src="/images/main/activity.jpg" alt="activityLink"/>
+                    </div>
+                    <div className="p-0 m-0 col-4 title-wrapper">
+                      <p className="link-title"><i class="fas fa-paw px-2"></i>周辺案内を見る<i class="fas fa-paw px-2"></i></p>
+                    </div>
                   </div>
-                  <div className="p-0 m-0 col-2 title-wrapper">
-                    <p className="link-title"><i class="fas fa-paw px-2"></i>アクセスを見る<i class="fas fa-paw px-2"></i></p>
+                </div>
+                <div className="px-0 py-3 mx-0 row justify-content-center">
+                  <div className="p-0 m-0 col-6 row justify-content-center section-link">
+                    <div className="px-0 mx-0 col-6 img-wrapper access-link">
+                      <img src="/images/main/access.jpg" alt="accessLink"/>
+                    </div>
+                    <div className="p-0 m-0 col-4 title-wrapper access-link">
+                      <p className="link-title"><i class="fas fa-paw px-2"></i>アクセスを見る<i class="fas fa-paw px-2"></i></p>
+                    </div>
                   </div>
                 </div>
               </div>
