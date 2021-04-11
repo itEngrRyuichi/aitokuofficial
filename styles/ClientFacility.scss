@@ -1,0 +1,30 @@
+.facility-wrapper{
+    .room-title{
+        font-size: 22px;
+        font-family: 'Hachi Maru Pop', cursive;
+        .small{
+            font-size: 20px;
+            color: #757575;
+        }
+    }
+    .blur, .blur > img {
+        margin: 0; padding: 0;
+        border: 0;
+    }
+    
+    .blur {
+        position: relative;
+        display: inline-block;
+        font-size: 0;
+        line-height: 0;
+    }
+    
+    .blur:after {
+        position: absolute;
+        left: 0; top: 0; right: 0; bottom: 0;
+        -moz-box-shadow: inset 0px 0px 15px 15px #f9f6ee;
+        -webkit-box-shadow: inset 0px 0px 15px 15px #f9f6ee;
+        box-shadow: inset 0px 0px 15px 15px #f9f6ee;
+        content: " ";
+    }
+}
